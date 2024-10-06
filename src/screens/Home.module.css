@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    background: linear-gradient(180deg, #000000, #003f4b);
+    align-items: center;
+  }
+
+.image_banner img{
+  width: 600px;
+  height: 400px;
+  display: block;
+}
+
+.image_banner {
+  animation: movimiento 2.5s infinite;
+}
+
+@keyframes movimiento{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(30px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}

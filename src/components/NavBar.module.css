@@ -1,0 +1,88 @@
+.box select {
+    background-color: #313335;
+    color: white;
+    padding: 7px;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    font-size: 17px;
+    box-shadow: 0 5px 25px rgba(37, 3, 3, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    border-radius: .5cap;
+    background-color: #003f4b;
+  }
+  
+.box::before {
+    content: icon;
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+  }
+  
+.box:hover::before {
+    color: #f1f1f1;
+    background-color: #f1f1f1;
+  }
+  
+.box select option {
+    padding: 30px;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+:root {
+  --clr: #000000
+}
+
+.navigation {
+  width: 400px;
+  height: 70px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.navigation NavLink{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.navigation NavLink icon {
+  position: relative;
+  display: block;
+  line-height: 75px;
+  font-size: 1.5em;
+  text-align: center;
+  transition: .5s;
+  color: var(--clr);
+  padding-top: -10px;
+}
+
+.navigation NavLink:hover icon {
+  transform: translateY(-35px);
+}

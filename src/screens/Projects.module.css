@@ -1,0 +1,56 @@
+.projects {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-direction: column;
+    background: linear-gradient(180deg, #000000, #003f4b);
+}
+
+.imagegame {
+    margin-top: 15px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.imagemachine {
+    margin-top: 15px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-top: 25px;
+}
+
+.h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.image_banner img{
+    width: 600px;
+    display: block;
+  }
+  
+  .image_banner {
+    animation: movimiento 2.5s infinite;
+  }
+  
+  @keyframes movimiento{
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(30px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+
+.stepBorder {
+    background-color: #f1f1f1;
+    height: 6px;
+    width: 80%;
+    margin-top: 10px;
+}
