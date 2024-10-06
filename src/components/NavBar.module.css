@@ -51,6 +51,15 @@
   --clr: #000000
 }
 
+.fixed {
+  width: 100%;
+  position: fixed; 
+  padding: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
 .navigation {
   width: 400px;
   height: 70px;

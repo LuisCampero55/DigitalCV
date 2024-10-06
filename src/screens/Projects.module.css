@@ -1,6 +1,6 @@
 .projects {
     display: flex;
-    padding-top: 25px;
+    padding-top: 100px;
     padding-bottom: 25px;
     flex-direction: column;
     background: linear-gradient(180deg, #000000, #003f4b);

@@ -18,7 +18,7 @@ export const NavBar = () => {
     }
 
   return (
-    <nav>
+    <nav className={styles.fixed}>
             <div className={styles.navigation}>
                 <NavLink className={isActive} to='/'><center><IoHome className={styles.icon}/></center><br/>{t('home')}</NavLink>
                 <NavLink className={isActive} to='/about'><center><FaUser /></center><br/>{t('about')}</NavLink>
