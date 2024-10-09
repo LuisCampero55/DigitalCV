@@ -7,8 +7,9 @@ import { SiMysql } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiPhpmyadmin } from "react-icons/si";
-import { FaPython } from "react-icons/fa";
 import { DiCodeigniter } from "react-icons/di";
+import { FaPhp } from "react-icons/fa";
+import { GiDinosaurRex } from "react-icons/gi";
 
 export const Projects = () => {
 
@@ -20,29 +21,51 @@ export const Projects = () => {
                 <h1>{t('projects')}</h1>
             </div>
             <div>
-                <h2 className={styles.h2}>The Game</h2>
+                <h2 className={styles.h2}>
+                    <li className={styles.sli}>
+                        <a href='https://github.com/LuisCampero55/TheGame' className={styles.sc}>The Game</a>
+                    </li>
+                </h2>
                 <span className={styles.text}>{t('desP1')}</span>
-                <center><img className={styles.imagegame} src={imageOne} alt="Image"/></center>
+                <center><a href='https://github.com/LuisCampero55/TheGame'><img className={styles.imagegame} src={imageOne} alt="Image"/></a></center>
                 <FaJava size={50}/> <SiMysql size={50}/>
                 <center><p className={styles.stepBorder}/></center>
             </div>
             <div>
-                <h2 className={styles.h2}>{t('titleP2')}</h2>
+                <h2 className={styles.h2}>
+                    <li className={styles.sli}>
+                        <a href='https://github.com/LuisCampero55/ProyectoPaqueteriaEquipoRoma' className={styles.sc}>{t('titleP2')}</a>
+                    </li>
+                </h2>
                 <span className={styles.text}>{t('desP2')}</span><br/><br/>
                 <FaAngular size={50}/> <IoLogoJavascript size={50}/> <SiPhpmyadmin size={50}/>
                 <center><p className={styles.stepBorder}/></center>
             </div>
             <div>
-                <h2 className={styles.h2}>{t('titleP3')}</h2>
+                <h2 className={styles.h2}>
+                    <li className={styles.sli}>
+                        <a href='https://github.com/LuisCampero55/Vending-Machine' className={styles.sc}>{t('titleP3')}</a>
+                    </li>
+                </h2>
                 <span className={styles.text}>{t('desP3')}</span>
-                <center><img className={styles.imagemachine} src={imageTwo} alt="Image"/></center>
+                <center><a href='https://github.com/LuisCampero55/Vending-Machine'><img className={styles.imagemachine} src={imageTwo} alt="Image"/></a></center>
                 <FaJava size={50}/> 
                 <center><p className={styles.stepBorder}/></center>
             </div>
             <div>
                 <h2 className={styles.h2}>{t('titleP4')}</h2>
                 <span className={styles.text}>{t('desP4')}</span><br/><br/>
-                <FaPython size={50}/> <DiCodeigniter size={50}/> <SiPhpmyadmin size={50}/>
+                <FaPhp size={50}/> <DiCodeigniter size={50}/> <SiPhpmyadmin size={50}/>
+                <center><p className={styles.stepBorder}/></center>
+            </div>
+            <div>
+                <h2 className={styles.h2}>
+                    <li className={styles.sli}>
+                        <a href='https://github.com/LuisCampero55/Cobol' className={styles.sc}>{t('titleP5')}</a>
+                    </li>
+                </h2>
+                <span className={styles.text}>{t('desP5')}</span><br/><br/>
+                <GiDinosaurRex size={50}/>
                 <center><p className={styles.stepBorder}/></center>
             </div>
             <div>

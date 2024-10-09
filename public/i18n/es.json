@@ -15,6 +15,8 @@
     "desP3": "Automata sobre una maquina expendedora donde los clientes comprar un producto en el sistema y reciben su producto adquirido y su cambio.",
     "titleP4": "Sistema de automatizado",
     "desP4": "Sistema web que agiliza las tareas de un Bufete de abogados, ademas de generar expedientes en un formato establecido ",
+    "titleP5": "Convertidor numeros a letras",
+    "desP5": "Prueba final en Cobol donde los numeros se convierten en palabras para las ventas en un comercio.",
     "titlePFinal": "Proximamente",
     "desPFinal": "Nuevos proyectos.",
     "contact": "¡Contactame!",
@@ -22,5 +24,14 @@
     "name": "Nombre",
     "email": "correo@electronico.com",
     "message": "Deja tu mensaje aqui...",
-    "button": "¡Enviar!"
+    "button": "¡Enviar!",
+    "timelinetitle1": "Academia MainFrame (Cobol, JCL y DB2)",
+    "timelinetime1": "2024",
+    "timelinedes1": "Grupo Trade",
+    "timelinetitle2": "Ingenieria en Sistemas Computacionales",
+    "timelinetime2": "2018-2024",
+    "timelinedes2": "Tecnologico de Estudios Superiores de Ecatepec",
+    "timelinetitle3": "Tecnico en Programacion",
+    "timelinetime3": "2014-2017",
+    "timelinedes3": "Colegio de Estudios Cientificos y Tecnologicos del Estado de Mexico"
 }

@@ -28,3 +28,141 @@
       transform: translateY(0);
     }
   }
+  
+  .timelinegood {
+    position: relative;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+
+  .timelinegood::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+  .containerLeft {
+    left: 0;
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    background: #000;
+    border-radius: 10px;
+  }
+
+  .containerLeft::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #fff;
+    border: 4px solid #000;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .containerLeft::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+
+  .containerRight {
+    left: 50%;
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    background: #000;
+    border-radius: 10px;
+  }
+
+  .containerRight::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #fff;
+    border: 4px solid #000;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .containerRight::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .containerRight::after {
+    left: -16px;
+  }
+
+  .textbox {
+  padding: 20px 30px;
+  background-color: #000;
+  position: relative;
+  border-radius: 6px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .timelinegood::after {
+      left: 31px;
+    }
+    
+    .containerLeft {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+
+    .containerLeft::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+
+    .containerRight {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+    
+    .containerRight::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+    
+    .containerLeft::after, .containerRight::after {
+      left: 15px;
+    }
+    
+    .containerRight {
+      left: 0%;
+    }
+  }

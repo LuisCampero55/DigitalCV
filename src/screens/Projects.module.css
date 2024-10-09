@@ -27,6 +27,17 @@
     font-size: 30px;
 }
 
+.sli {
+  list-style: none;
+}
+
+.sc {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
 .image_banner img{
     width: 600px;
     display: block;
