@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next';
 import styles from './Footers.module.css';
 import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
-
 export const Footers = () => {
 
     const { t } = useTranslation()
@@ -25,7 +24,8 @@ export const Footers = () => {
                             </li>
                         </ul>
                     </div>
-                    <a className={styles.footerright} href='/contact'>{t("contact")}</a>
+                    {/* Link hacia Contact */}
+                    {/*<a className={styles.footerright} href='/contact'>{t("contact")}</a>*/}
                 </div>
             </footer>
             <p className={styles.colorp}>

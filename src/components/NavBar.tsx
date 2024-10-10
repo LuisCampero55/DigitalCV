@@ -16,7 +16,6 @@ export const NavBar = () => {
         const lang_code = e.target.value
         i18n.changeLanguage(lang_code)
     }
-
   return (
     <nav className={styles.fixed}>
             <div className={styles.navigation}>
