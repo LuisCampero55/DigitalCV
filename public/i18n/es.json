@@ -17,6 +17,8 @@
     "desP4": "Sistema web que agiliza las tareas de un Bufete de abogados, ademas de generar expedientes en un formato establecido ",
     "titleP5": "Convertidor numeros a letras",
     "desP5": "Prueba final en Cobol donde los numeros se convierten en palabras para las ventas en un comercio.",
+    "titleP6": "Circuito de Contratacion SMART POS",
+    "desP6": "Colabore en el proyecto del circuito de contratacion de una TPV SMART POS trabajando en el Backend en las arquitecturas APX y ASO.",
     "titlePFinal": "Proximamente",
     "desPFinal": "Nuevos proyectos.",
     "contact": "¡Contactame!",
@@ -33,5 +35,8 @@
     "timelinedes2": "Tecnologico de Estudios Superiores de Ecatepec",
     "timelinetitle3": "Tecnico en Programacion",
     "timelinetime3": "2014-2017",
-    "timelinedes3": "Colegio de Estudios Cientificos y Tecnologicos del Estado de Mexico"
+    "timelinedes3": "Colegio de Estudios Cientificos y Tecnologicos del Estado de Mexico",
+    "timelinetitle0": "Indra Sistemas Mexico",
+    "timelinetime0": "2024 - actualidad",
+    "timelinedes1": "Desarrollador Backend (APX, JAVA) en BBVA",
 }
