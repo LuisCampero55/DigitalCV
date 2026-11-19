@@ -3,10 +3,10 @@
     "spanish": "Spanish",
     "title": "Hi! I'm {{name}}",
     "subtitle": "Systems engineering",
-    "label": "Software development / Web development",
+    "label": "Software development / Backend development",
     "about": "About me",
     "home": "Home",
-    "desabout": "As a recently graduated looking first opportunity for development. I thrive on exploring and learning technologies being driven by curiosity.",
+    "desabout": "Backend-focused software developer with over two years experience working with technologies and tools such as Java, SonarQube, Github, Git, Maven, Mockito, SQL, and Xray.",
     "projects": "Projects",
     "desP1": "System program that can doing CRUD (create, read, update, delete) in data base. Count with a Login for vendors.",
     "titleP2": "Courier service ROMA",
@@ -17,6 +17,8 @@
     "desP4": "Web system for speed up to tasks in law firm moreover generate expedients a format established.",
     "titleP5": "Numbers to words converter",
     "desP5": "Final test Cobol where numbers to words for sales in a commerce.",
+    "titleP6": "SMART POS Contracting Process",
+    "desP6": "Contributed to the SMART POS Contracting workfloj project, developing backend services using the APX and ASO architectures.",
     "titlePFinal": "Cooming soon",
     "desPFinal": "New projects",
     "contact": "Contact me!",
@@ -33,5 +35,8 @@
     "timelinedes2": "Tecnologico de Estudios Superiores de Ecatepec",
     "timelinetitle3": "Technical in Programation",
     "timelinetime3": "2014-2017",
-    "timelinedes3": "Colegio de Estudios Cientificos y Tecnologicos del Estado de Mexico"
+    "timelinedes3": "Colegio de Estudios Cientificos y Tecnologicos del Estado de Mexico",
+    "timelinetitle0": "Indra Sistemas Mexico",
+    "timelinetime0": "2024 - present",
+    "timelinedes1": "Backend Developer (APX, ASO) at BBVA"
 }
