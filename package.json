@@ -12,6 +12,7 @@
   "dependencies": {
     "i18next": "^23.15.2",
     "i18next-http-backend": "^2.6.2",
+    "npm": "^12.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^15.0.2",
