@@ -13,6 +13,13 @@ export const About = () => {
             <div className={styles.timelinegood}>
                 <div className={styles.containerLeft}>
                     <div className={styles.textbox}>
+                        <h2>{t('timelinetitle0')}</h2>
+                        <small >{t('timelinetime0')}</small>
+                        <p>{t('timelinedes0')}</p>
+                    </div>
+                </div>
+                <div className={styles.containerLeft}>
+                    <div className={styles.textbox}>
                         <h2>{t('timelinetitle1')}</h2>
                         <small>{t('timelinetime1')}</small>
                         <p>{t('timelinedes1')}</p>
